@@ -16,14 +16,12 @@ function Body() {
         <Projects />
       </section>
       <section id="skills">
-        <Skills />
+          <Skills/>
       </section>
       <section id="work">
-        <Work />
+          <Work/>
       </section>
-      <section id="contact">
-        <Contact />
-      </section>
+      <section id="contact">{/*  */}</section>
     </div>
   );
 }
