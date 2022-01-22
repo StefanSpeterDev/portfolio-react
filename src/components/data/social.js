@@ -1,4 +1,4 @@
-const baseUrl = "./";
+const baseUrl = "./images/icons/";
 export const SocialData = [
     {
         platform: "Linkedin",

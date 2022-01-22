@@ -5,7 +5,6 @@ import "./socials.css";
 function Socials() {
   const data = SocialData;
   return <div className="social-contact"> 
-  {console.log(data)}
  {
       data.map((item) => {
           return (

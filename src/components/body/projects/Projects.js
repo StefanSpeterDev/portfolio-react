@@ -1,3 +1,4 @@
+import Separator from 'components/common/separator/Separator';
 import React from 'react'
 import { ProjectData } from '../../data/projects'
 import ProjectCard from './ProjectCard';
@@ -7,10 +8,11 @@ function Projects() {
     const data = ProjectData;
     return (
         <div className="projects">
+            <Separator />
             <label className="section-title">Projects</label>
             <div>
                 {data.map((project) => {
-                    return <ProjectCard />
+                    return <ProjectCard project={project} />
                 })}
             </div>
         </div>

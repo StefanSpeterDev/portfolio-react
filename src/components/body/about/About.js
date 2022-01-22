@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Lottie from "react-lottie-player";
+// @ts-ignore
 import web from "../../../lotties/web.json";
 import Socials from "../../common/socials/Socials";
 
