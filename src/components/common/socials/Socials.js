@@ -5,13 +5,13 @@ import "./socials.css";
 function Socials() {
   const data = SocialData;
   return <div className="social-contact"> 
-{/*     <img src={require('./linkedin.png')}/>
- */}  {
+  {console.log(data)}
+ {
       data.map((item) => {
           return (
           <a href={item.link} key={item.platform}>
             <div className="social-icon-div">
-              <img src={ require(item.icon) } className="social-icon" />
+              <img src={ item.icon } className="social-icon" alt={item.platform }/>
             </div>
           </a>
           )

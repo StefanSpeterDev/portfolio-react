@@ -9,8 +9,8 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hello there &#128075;,
-          <span className="info-name">I am Stefan Speter</span>.<br /> Let me
+          Hello there &#128075;, I am<br/>
+          <span className="info-name"> Stefan Speter</span>.<br /> Let me
           show you my love for IT.
         </div>
         <div className="about-photo">
