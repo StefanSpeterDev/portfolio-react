@@ -5,7 +5,7 @@ function Mobile({ isOpen, setIsOpen }) {
   return (
     <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
-        <i class="bi bi-x-circle"></i>
+        <i className="bi bi-x-circle"></i>
       </div>
       <div className="mobile-options">
         <div className="mobile-option">
@@ -22,7 +22,7 @@ function Mobile({ isOpen, setIsOpen }) {
         </div>
         <div className="mobile-option">
           <a href="#work">
-            <i class="bi bi-building option-icon"></i>
+            <i className="bi bi-building option-icon"></i>
             Work
           </a>
         </div>
