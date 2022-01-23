@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className='footer'>
-            Made with React
+            Made with ReactJS
         </div>
     )
 }

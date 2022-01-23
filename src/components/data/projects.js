@@ -10,7 +10,7 @@ export const ProjectData = [
     },
     {
         id: 2,
-        title: "Random Project 1",
+        title: "Random Project 2",
         about: "My description",
         tags: ['ReactJS', "NodeJS"],
         demo: "lien vers le site",
@@ -18,7 +18,7 @@ export const ProjectData = [
     },
     {
         id: 3,
-        title: "Random Project 1",
+        title: "Random Project 3",
         about: "My description",
         tags: ['ReactJS', "NodeJS"],
         demo: "lien vers le site",

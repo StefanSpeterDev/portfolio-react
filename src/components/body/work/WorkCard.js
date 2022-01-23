@@ -11,7 +11,7 @@ function WorkCard({ item }) {
               <label>{item.dateJoining}</label>-<label>{item.dateEnd}</label>
           </div>
           <div className="work-description">
-              <p>{ item.work }</p>
+              <p dangerouslySetInnerHTML={{__html: item.work}}></p>
           </div>
       </div>
     </div>
