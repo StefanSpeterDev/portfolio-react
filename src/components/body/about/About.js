@@ -18,8 +18,8 @@ function About() {
           <Lottie loop animationData={web} play className="lottie-web" />
         </div>
       </div>
-      <div className="about-bottom">Contacts</div>
-      <Socials />
+      <div className="about-bottom"><Socials /></div>
+      
     </div>
   );
 }
