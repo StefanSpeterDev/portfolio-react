@@ -4,6 +4,7 @@ import About from "./about/About";
 import Contact from "./contact/Contact";
 import Projects from "./projects/Projects";
 import Work from "./work/Work";
+import Skills from "./skills/Skills";
 
 function Body() {
   return (
