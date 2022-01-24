@@ -5,7 +5,7 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#project">
+        <a href="#projects">
           <i className="bi bi-brush option-icon"></i>
           Projects
         </a>
@@ -18,7 +18,7 @@ function Web() {
       </div>
       <div className="web-option">
         <a href="#work">
-          <i class="bi bi-building option-icon"></i>
+          <i className="bi bi-building option-icon"></i>
           Work
         </a>
       </div>
