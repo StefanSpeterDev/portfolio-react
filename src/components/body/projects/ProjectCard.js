@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
             </a>
           )}
         </div>
-        <p>{project.about}</p>
+        <p dangerouslySetInnerHTML={{__html: project.about}}></p>
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag" key={tag}>{tag}</label>;
