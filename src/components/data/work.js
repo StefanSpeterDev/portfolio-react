@@ -1,5 +1,3 @@
-import React from "react";
-
 export const WorkData = [
   {
     id: 1,
