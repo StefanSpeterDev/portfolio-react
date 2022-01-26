@@ -9,7 +9,7 @@ export const WorkData = [
     dateEnd: "Present",
     companyLogo: "./images/akabia.png",
     companyWebsite: "https://akabia.fr/",
-    work: "Second internship, this time during 2 years to prepare my Master. I've got the chance to work on over 20 projects (e-commerce, intranet, for big and small companies). During this time I've learned to work under pressure, to manage my own schedule and to work as much by myself than in team and to lead a small team.",
+    work: "Second internship, this time for 2 years to prepare for my Master. I've got the chance to work on over 20 projects (e-commerce, intranet, for big and small companies). During this time I've learned to work under pressure, to manage my own schedule and to work as much by myself as in a team and to lead a small team.",
   },
   {
     id: 2,

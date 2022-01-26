@@ -2,9 +2,12 @@ import React from "react";
 import "./mobile.css";
 
 function Mobile({ isOpen, setIsOpen }) {
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div className="mobile">
-      <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
+    <div className={isOpen?'mobile fadeIn':'mobile fadeOut'}>
+      <div className="close-icon" onClick={toggleClass}>
         <i className="bi bi-x-circle"></i>
       </div>
       <div className="mobile-options">
