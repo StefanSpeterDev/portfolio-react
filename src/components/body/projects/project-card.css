@@ -54,12 +54,21 @@
     border-radius: 4px;
     font-size: 16px;
     margin-right: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-button:hover {
+    filter: brightness(85%);
 }
 
 .link-button i {
     display: flex;
     align-items: center;
     margin-right: 4px;
+}
+
+.project-card-description {
+    max-width: 70%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -80,5 +89,11 @@
     .project-tags {
         max-width: 100%;
     }
+
+    .project-card-description {
+        max-width: 100%;
+    }
+    
+
 
 }

@@ -3,3 +3,12 @@
     flex-direction: column;
     flex: 1;
 }
+.project-description {
+    max-width: 70%;
+}
+
+@media only screen and (max-width: 720px) {
+    .project-description {
+        max-width: 100%;
+    }
+}
