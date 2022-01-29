@@ -1,0 +1,53 @@
+.img-slide {
+  width: 200px;
+  height: auto;
+}
+
+div[data-testid="trackList"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-carousel {
+  position: relative;
+}
+.styles-module_item-provider__YgMwz {
+  height: 244px;
+}
+
+button[data-direction] {
+  top: calc(40% - 17px);
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  background: url("../../../../public/images/icons/arrow.svg") no-repeat center;
+}
+
+button[data-direction="right"] {
+  /* Left button */
+  transform: rotateZ(180deg);
+}
+button[data-direction="left"] {
+  /* Left button */
+  left: -55px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  button[data-direction="right"] {
+    /* Left button */
+    right: -8px;
+  }
+  button[data-direction="left"] {
+    /* Left button */
+    left: -25px;
+  }
+  .styles-module_item-container__a8zaY {
+    width: 250px !important;
+    margin: 0 15px;
+  }
+}

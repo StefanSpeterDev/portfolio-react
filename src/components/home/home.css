@@ -1,22 +1,30 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  background-color: #fff5fe;
+  /* For WebKit (Safari, Chrome, etc) */
+  background: #fff5fe -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#93a5cf),
+      to(#e4efe9)
+    ) no-repeat;
 }
-
 .home {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1024px) {
-    .home {
-        width: 90%;
-    }
+  .home {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 512px) {
-    .home {
-        width: 100%;
-    }
+  .home {
+    width: 100%;
+  }
 }

@@ -43,4 +43,29 @@ export const SkillsData = [
       },
     ],
   },
+  {
+    type: "Tools",
+    list: [
+      {
+        name: "Git",
+        icon: <i className="devicon-git-plain colored"></i>,
+      },
+      {
+        name: "VsCode",
+        icon: <i className="devicon-vscode-plain colored"></i>,
+      },
+      {
+        name: "Windows OS",
+        icon: <i className="devicon-windows8-original colored"></i>,
+      },
+      {
+        name: "MacOS",
+        icon: <i className="devicon-apple-original colored"></i>,
+      },
+      {
+        name: "GDrive",
+        icon: <i className="devicon-google-plain colored"></i>,
+      },
+    ],
+  },
 ];
